@@ -33,12 +33,15 @@ function App() {
             Insta
           </a>
         </div>
-        <input type='button' className='button'>
-          <span></span>
-          <span></span>
-          <span></span>
-        </input>
       </header>
+      <div className='menu-button'>
+        <input type='button' className='button' />
+        <div className='hover'>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
       <div className='main'></div>
       <div className='footer'></div>
     </div>
