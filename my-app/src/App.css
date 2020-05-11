@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 :root {
   --pink: #d741a7;
   --purple: #1f145a;
@@ -21,7 +22,17 @@ body {
   background-position-x: right;
   background-position-y: top;
 }
-
+h1 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 174px;
+  padding: 0;
+  color: var(--white);
+}
+h1 span {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 124px;
+  position: absolute;
+}
 a {
   color: var(--pink);
   text-decoration: none;
@@ -58,7 +69,7 @@ a {
   z-index: 1;
   top: 50px;
   right: 50px;
-  width:50px;
+  width: 50px;
   height: 30px;
   opacity: 0;
 }
@@ -84,4 +95,69 @@ a {
 .container .menu-button .hover span:nth-child(3) {
   margin-left: 10px;
   width: 40px;
+}
+.container .main {
+  position: relative;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.container .main .debout {
+  position: absolute;
+  height: 850px;
+  top: -150px;
+  right: 0;
+}
+.container .footer {
+  position: fixed;
+  top: calc(100vh - 100px);
+  left: 0;
+  width: 900px;
+  display: flex;
+}
+.container .footer .marvel {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  padding: 5px;
+  box-shadow: inset 0px 10px 15px #e65d60, inset -10px -10px 4px #bf0409;
+  border-radius: 0px 20px 0px 0px;
+  z-index: 1;
+}
+.container .footer .marvel-image {
+  position: absolute;
+  width: 95px;
+  border-radius: 0px 20px 0px 0px;
+  z-index: 0;
+}
+.container .footer .nav {
+  height: 60px;
+  padding: 10px;
+  margin: 10px 50px;
+  display: grid;
+  background: #1f145a;
+  box-shadow: inset -10px -10px 15px rgba(15, 10, 45, 0.4),
+    inset 10px 10px 15px rgba(65, 56, 145, 0.57);
+  border-radius: 20px;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+.container .footer .nav button {
+  height: 50px;
+  background: var(--pink);
+  border: none;
+  border-radius: 7px;
+  padding: 0 10px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  text-align: center;
+}
+.container .footer .nav button text {
+  font-size: 20px;
+  color: var(--white);
+}
+.container .footer .nav button img {
+  height: 25px;
 }
