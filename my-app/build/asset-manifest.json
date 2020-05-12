@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bafeb5cf.chunk.css",
+    "main.js": "/static/js/main.3ff7b2d7.chunk.js",
+    "main.js.map": "/static/js/main.3ff7b2d7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f3a02c50.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f3a02c50.js.map",
+    "static/js/2.a2f5d6f1.chunk.js": "/static/js/2.a2f5d6f1.chunk.js",
+    "static/js/2.a2f5d6f1.chunk.js.map": "/static/js/2.a2f5d6f1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e7fb3f08df23c7aece7516c2c7573a65.js": "/precache-manifest.e7fb3f08df23c7aece7516c2c7573a65.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.bafeb5cf.chunk.css.map": "/static/css/main.bafeb5cf.chunk.css.map",
+    "static/js/2.a2f5d6f1.chunk.js.LICENSE.txt": "/static/js/2.a2f5d6f1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/background.ba10155b.jpg",
+    "static/media/full.png": "/static/media/full.ae83ae98.png",
+    "static/media/genou.png": "/static/media/genou.2f6cf920.png",
+    "static/media/griffe.png": "/static/media/griffe.8a91ac45.png",
+    "static/media/kick.png": "/static/media/kick.37a8ee29.png",
+    "static/media/logo.svg": "/static/media/logo.18f5240c.svg",
+    "static/media/logo1.png": "/static/media/logo1.3d2c4735.png",
+    "static/media/logo2.png": "/static/media/logo2.2850fee4.png",
+    "static/media/logo3.png": "/static/media/logo3.ae81b309.png",
+    "static/media/logo4.png": "/static/media/logo4.a59ac6a9.png",
+    "static/media/marvel.jpg": "/static/media/marvel.457783a5.jpg",
+    "static/media/ui.svg": "/static/media/ui.21790531.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3a02c50.js",
+    "static/js/2.a2f5d6f1.chunk.js",
+    "static/css/main.bafeb5cf.chunk.css",
+    "static/js/main.3ff7b2d7.chunk.js"
+  ]
+}
