@@ -33,6 +33,12 @@ h1 span {
   font-size: 124px;
   position: absolute;
 }
+h2{
+  font-family: 'Major Mono Display', monospace;
+  color: var(--pink);
+  font-size: 30px;
+  margin-top: 190px;
+}
 a {
   color: var(--pink);
   text-decoration: none;
@@ -102,11 +108,31 @@ a {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
-.container .main .debout {
+.container .main .debout{
   position: absolute;
+  transition: .5s;
   height: 850px;
-  top: -150px;
-  right: 0;
+  top: -100px;
+  right: 150px;
+}
+.container .main .kick {
+  transition: .5s;
+  position: absolute;
+  height: 600px;
+  right: 150px;
+}
+.container .main .griffe  {
+  transition: .5s;
+  position: absolute;
+  height: 750px;
+  right: 150px;
+}
+.container .main .genou  {
+  transition: .5s;
+  position: absolute;
+  height: 750px;
+  top: -50px;
+  right: 150px;
 }
 .container .footer {
   position: fixed;
@@ -160,4 +186,11 @@ a {
 }
 .container .footer .nav button img {
   height: 25px;
+}
+.container .footer .nav .logo {
+  height: 50px;
+  margin: 0 auto;
+}
+.container .footer .nav .logo.active {
+  border-bottom: 4px solid var(--pink);
 }
